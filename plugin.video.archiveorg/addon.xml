@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.archiveorg" name="Archive.org" version="1.0.0" provider-name="nishulohani">
+  <requires><import addon="xbmc.python" version="3.0.0"/></requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video audio</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Browse archive.org</summary>
+    <description>Browse and play public-domain movies and audio from the Internet Archive.</description>
+    <platform>all</platform>
+  </extension>
+</addon>

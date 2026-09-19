@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.archiveorg" name="My Archive Repo" version="1.0.0" provider-name="nishulohani">
+  <extension point="xbmc.addon.repository" name="My Archive Repo">
+    <dir>
+      <info compressed="false">https://raw.githubusercontent.com/nishulohani/kodi-archive-repo/main/addons.xml</info>
+      <checksum>https://raw.githubusercontent.com/nishulohani/kodi-archive-repo/main/addons.xml.md5</checksum>
+      <datadir zip="true">https://raw.githubusercontent.com/nishulohani/kodi-archive-repo/main/zips/</datadir>
+    </dir>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Repository for the Archive.org Kodi plugin</summary>
+    <description>Installs and updates the Archive.org plugin from GitHub.</description>
+    <platform>all</platform>
+  </extension>
+</addon>
